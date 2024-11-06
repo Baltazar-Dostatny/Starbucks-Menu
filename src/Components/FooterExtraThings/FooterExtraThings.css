@@ -1,0 +1,19 @@
+.extraThings {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.extraThings ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.extraThings ul li a {
+    font-size: 0.8em;
+}
+
+.extraThings h3 {
+    color: #494949;
+}

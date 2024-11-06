@@ -1,0 +1,14 @@
+footer {
+    text-transform: none;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 4px #000;
+    gap: 20px;
+    padding: 40px 80px;
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        padding: 10px 20px;
+    }
+}

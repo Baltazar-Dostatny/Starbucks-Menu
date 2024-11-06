@@ -1,0 +1,10 @@
+.socialMedia ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.socialMediaIcons {
+    font-size: 30px;
+}

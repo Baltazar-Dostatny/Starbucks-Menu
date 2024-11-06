@@ -1,0 +1,9 @@
+main {
+    min-height: 400px;
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    grid-template-columns: auto 1fr;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}

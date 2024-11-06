@@ -1,0 +1,42 @@
+.extraDiv {
+    min-height: 300px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: min-content min-content 1fr;
+    gap: 20px;
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.extraDiv h2 {
+    font-size: 3vw;
+}
+
+.extraDiv ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.extraDiv ul li button {
+    border: none;
+    background-color: #FFF;
+    border: 4px solid #006241;
+    border-radius: 22px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.extraDiv img {
+    max-height: 400px;
+    max-width: 700px;
+    height: 100%;
+    width: 100%;
+    align-self: last baseline;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    border-radius: 16px;
+}
